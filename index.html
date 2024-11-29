@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Full Access Pricing Page</title>
+
+  <!-- Include Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* Reset default margins and paddings */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body Styling */
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      line-height: 1.6;
+      padding: 20px;
+    }
+
+    /* Container */
+    .container {
+      max-width: 800px;
+      max-height: 995px; /* Set maximum height */
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 8px;
+      overflow-y: auto; /* Enable vertical scrolling if content overflows */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Header Section */
+    .header {
+      background-color: #0066cc;
+      color: #fff;
+      padding: 20px; /* Reduced padding */
+      text-align: center;
+    }
+
+    .header h1 {
+      font-size: 2em; /* Reduced font size */
+      margin-bottom: 10px;
+    }
+
+    .header h1 span {
+      font-weight: 700;
+    }
+
+    .header p {
+      font-size: 1.1em; /* Adjusted font size */
+    }
+
+    /* Features List */
+    .features {
+      padding: 15px; /* Reduced padding */
+    }
+
+    .features h2 {
+      font-size: 1.5em; /* Reduced font size */
+      margin-bottom: 15px; /* Reduced margin */
+      text-align: center;
+      font-weight: 700;
+      color: #0066cc;
+    }
+
+    .features ul {
+      list-style: none;
+    }
+
+    .features li {
+      display: flex;
+      align-items: flex-start;
+      margin-bottom: 10px; /* Reduced margin */
+    }
+
+    .features li span {
+      margin-right: 8px; /* Reduced margin */
+      font-size: 1em; /* Reduced font size */
+      margin-top: 2px;
+    }
+
+    .features li .text {
+      flex: 1;
+      font-size: 1em; /* Reduced font size */
+    }
+
+    .features li.included span {
+      color: #28a745; /* Green for included features */
+    }
+
+    /* Call to Action Button */
+    .cta-button {
+      text-align: center;
+      padding: 15px; /* Reduced padding */
+      background-color: #f5f5f5;
+    }
+
+    .cta-button a {
+      display: inline-block;
+      padding: 12px 24px; /* Reduced padding */
+      background-color: #0066cc;
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1em; /* Reduced font size */
+      font-weight: 700;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button a:hover {
+      background-color: #005bb5;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      .header h1 {
+        font-size: 1.8em;
+      }
+
+      .header p {
+        font-size: 1em;
+      }
+
+      .features h2 {
+        font-size: 1.3em;
+      }
+
+      .features li .text {
+        font-size: 0.9em;
+      }
+
+      .cta-button a {
+        font-size: 0.9em;
+        padding: 10px 20px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .header h1 {
+        font-size: 1.5em;
+      }
+
+      .header p {
+        font-size: 0.9em;
+      }
+
+      .features h2 {
+        font-size: 1.1em;
+      }
+
+      .cta-button a {
+        font-size: 0.8em;
+        padding: 8px 16px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header Section -->
+    <div class="header">
+      <h1>FULL ACCESS <span>(From $43/mo)</span></h1>
+      <p><em>INCLUDES...</em></p>
+    </div>
+
+    <!-- Features List -->
+    <div class="features">
+      <ul>
+        <!-- Included Features -->
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">24/7 Secured Access to all (3) facilities</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">Access to ALL equipment (free weights, functional training zones, mobility areas, weight machines, and cardio equipment)</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">Well-equipped locker rooms with men's and women's saunas at all locations</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">Complimentary fitness consultation including InBody Assessment</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">Access to the FitClub Members App for progress tracking, workout plans, recipes, account management, and so much more.</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">FitClub Perks Rewards Program - earn free cooler drinks, FitClub gear, personal training sessions, gift cards to local businesses, and even free months of membership...Just for showing up!</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">100+ Weekly Group Exercise Classes (Zumba, Yoga, Pilates, BodyPump, CycleFit, and many more!)</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">Access to multiple aquatics centers with jacuzzis (FitClub South and West), Lap Pool (FitClub South and West), and warm water therapy pool (FitClub South only)</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">40+ Weekly Aquatics Exercise Classes</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">Private lap lane reservations</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">Child Care at all three locations</div>
+        </li>
+        <li class="included">
+          <span>✔️</span>
+          <div class="text">Les Mills® On Demand - Stream over 500 of the greatest fitness classes on the planet, anywhere, anytime right from your FitClub Members App.</div>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Call to Action Button -->
+    <div class="cta-button">
+      <a href="full-access-{{ params.preferred-location|default:'South' }}">Click Here To Get FULL Access!</a>
+    </div>
+  </div>
+</body>
+</html>
